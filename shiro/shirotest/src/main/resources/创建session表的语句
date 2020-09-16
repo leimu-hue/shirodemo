@@ -1,0 +1,9 @@
+create database data;
+
+use data;
+
+create table sessions(
+ id varchar(200),
+ session varchar(2000),
+ constraint p_sessions primary key(id)
+)engine=innodb;
